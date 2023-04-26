@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ColorRenderer from './components/ColorRenderer';
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      
+    <div className='App'>
+      <ColorRenderer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
